@@ -1,0 +1,382 @@
+
+
+#wrapper
+{
+	font-family: tahoma;
+}
+
+.container
+{
+	width: 100%;
+	max-width: 1280px;
+	margin: 0 auto;
+}
+
+#subheader
+{
+	width: 100%;
+	height: 30px;
+	background-color: #0a930a;
+	color: #fff;
+	margin-top: -15px;
+}
+
+#subheader p
+{
+	float: left;
+	margin-top: 7px;
+}
+
+#subheader a
+{
+	float: right;
+	line-height: 30px;
+	color: #fff;
+	text-decoration: none;
+	margin-left: 30px;   
+}
+
+/*Logo Styling*/
+#main-header
+{
+	width: 100%;
+	height: 100px;
+	background-color: #1aaa1a;
+	float: left;
+	margin-top: -15px;
+}
+
+#logo
+{
+	width: 250px;
+	margin-top: 10px;
+	float: left;
+}
+
+#ist
+{
+	color: black;
+	font-size: 45px;
+	font-weight: bold;
+	margin-left: 15px;
+	font-family: cursive;
+}
+
+#iist
+{
+	color: black;
+	font-size: 35px;
+	font-weight: bold;
+	font-family: cursive;
+}
+
+/*searching REA STYLING*/
+#search
+{
+	width: 650px;
+	float: left;
+	padding: 20px;
+	margin-left: 50px;
+}
+
+.search-area
+{
+	width: 620px;
+	height: 50px;
+	background-color: #fff;
+	border: none;
+	border-radius: 10px;
+	padding-left: 15px; 
+	float:left;
+}
+
+.search-btn
+{
+	width: 100px;
+	height: 52px;
+	background-color: brown;
+	color: #fff;
+	border: none;
+	border-radius: 10px;
+	margin-left: -100px;
+}
+
+/*this is for user menu styling*/
+#user-menu
+{
+	width: 300px;
+	float: right;
+	margin-top: 20px;
+}
+
+/*this is for list styling*/
+#user-menu li
+{
+	float: left;
+	width: 140px;
+	text-align: center;
+	list-style-type: none;
+	font-size: 25px;
+	border-left: 1px solid black
+}
+
+#user-menu li:hover
+{
+	font-size: 30px;
+	transition: all .5s ease;
+
+}
+
+#user-menu li a
+{
+	color: #fff;
+	text-decoration: none;
+}
+
+/*this is styling for Navigation bar*/
+
+#navigation
+{
+	width: 100%;
+	height: 35px;
+	background-color: #1aaa1a;
+	float: left;
+	box-shadow: 10px 14px 50px 2px #1aaa1a;
+}
+
+nav
+{
+	width: 1280px;
+	margin: 0 auto;
+}
+
+nav a 
+{
+	margin-left: 35px;
+	color: #fff;
+	text-decoration: none;
+}
+
+nav a:hover
+{
+	color: #000;
+	transition: all .7s ease;
+}
+
+/*category heading*/
+#heading-block
+{
+	width: 100%;
+	height: auto;
+	float: left;
+	color: #1aaa1a;
+	font-size: 22px;
+}
+
+#heading-block h2
+{
+	line-height: 35px;
+	border-left: 20px solid #1aaa1a;
+	padding-left: 10px;
+}
+
+/*category boxes*/
+.catbox
+{
+	width: 235px;
+	height: 235px;
+	overflow: hidden;
+	padding-left: 15px;
+	float: left;
+	position: relative;
+	margin: 0 15 30 0;
+}
+
+.catbox span
+{
+  	width: 100%;
+	height: 35px; 
+	line-height: 35px;
+	background-color: black;
+	background:rgba(0,0,0,0.6);
+	color: white;
+	display: block;
+	position: absolute;
+	bottom: 30px;
+	z-index: 999;
+	text-align: center; 
+}
+
+.catbox img
+{
+	max-width: 100%;
+	transition: all .5s ease;
+}
+
+.catbox img:hover
+{
+	transform: (1.3, 1.3);
+	transition: all .5s ease;
+} 
+
+/*this is for products styling*/
+
+.prod-box
+{
+	width: 235px;
+	height: 300px;
+	overflow: hidden;
+	margin: 0 20 30 0;
+	position: relative;
+	float: left;
+	padding-left: 15px;
+}
+
+.prod-box img
+{
+	max-width: 100%;
+}
+
+.prod-trans
+{
+	background-color:rgba(0,0,0,0.6);
+	width: 100%;
+	height: 100%;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	position: absolute;
+	opacity: 0;
+	transition: all 1.5s ease;
+
+} 
+
+.prod-box:hover .prod-trans
+{
+	opacity: 1; 
+	transition: all 1.5s ease;
+}
+
+.prod-feature
+{
+	text-align: center;
+	margin-top: -150px;
+	transition: all 1.5s ease;
+}
+
+.prod-feature p
+{
+	color: #00eb00;
+	font-family: verdana;
+}
+
+.prod-box:hover .prod-feature
+{
+	margin-top: 150px;
+	transition: all 1.5s ease;
+}
+
+.prod-feature input
+{
+	width: 150px;
+	height: 35px;
+	font-size: 17px;
+}
+
+.offer
+{
+	float: left;
+	width: 420px;
+	margin-right: 10px;
+}
+
+.offer img
+{
+	width: 100%;
+}
+
+.offer:last-child
+{
+	margin-right: 0px;
+}
+
+#footer
+{
+	width: 100%;
+	height: auto;
+	float: left;
+	background-color: #f5f5f5;
+}
+
+.footer-sub
+{
+	width: 25%;
+	float: left;
+}
+
+.footer-sub-2
+{
+	float: left;
+	width: 20%;
+}
+
+.footer-sub-2 ul li
+{
+	list-style-type: none;
+}
+
+.footer-sub-2 ul li a
+{
+	text-decoration: none;
+	color: #000;
+}
+
+.footer-sub-2 a:hover
+{
+	color: #1aaa1a;
+	text-decoration: underline;
+}
+
+.footer-sub-3
+{
+	width: 35%;
+	float: left;
+}
+
+.subs
+{
+	width: 320px;
+	border: none;
+	height: 50px;
+	padding: 15px;
+	float: left;
+}
+
+.sub_btn
+{
+	height: 80px;
+	border: none;
+	background-color: #1aaa1a;
+	float: left;
+}
+
+.sub_p
+{
+	color: #999;
+	font-style: italic;
+	font-size: 13px;
+}
+
+
+
+
+
+
+
+
+ 
+
+
+
+
